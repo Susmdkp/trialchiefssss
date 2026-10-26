@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "trialchiefs",
+  "version": "${version}",
+  "name": "Trial Chiefs",
+  "description": "Jefes tribales que te ponen a prueba (oleadas, pilar gigante, duelo) y te recompensan con objetos vanilla.",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.trialchiefs.TrialChiefs"],
+    "client": ["com.example.trialchiefs.client.TrialChiefsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
